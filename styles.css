@@ -1,0 +1,159 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9fafc;
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.header div {
+    padding-bottom: 5px;
+}
+
+.header nav ul {
+    padding: 0%;
+}
+
+.header nav ul li {
+    padding-bottom: 5px;
+}
+
+main {
+    margin: 20px;
+}
+
+.greytext {
+    color: #69696a;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    padding: 010px;
+    width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #69696a;
+}
+
+a:visited {
+    color: #69696a;
+
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+main p {
+    border-left: 3px solid #69696a;
+    padding-left: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(247, 193, 162, 0.7);
+}
+
+.footernav {
+    display: flex;
+    align-items: space-around;
+}
+
+.footer div {
+    padding-left: 20px;
+}
+
+.footer li {
+    padding-right: 20px;
+}
+
+/* Media querie for large screens */
+
+@media screen and (min-width: 768px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header nav ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .header nav ul li {
+        padding-right: 20px;
+    }
+
+    .header nav button {
+        width: auto;
+    }
+
+    main {
+        width: 50%;
+    }
+    
+    .circlesall {
+        position: absolute;
+        top: 90px;
+        right: 0;
+        padding-right: 20px;
+    }
+
+    .circle1 {
+        height: 110px;
+        width: 110px;
+        background-color: rgba(247, 136, 167, 0.6);
+        border-radius: 50%;
+        position: relative;
+        right: 80px;
+        top: 100px;
+    }
+
+    .circle2 {
+        height: 85px;
+        width: 85px;
+        background-color: rgba(247, 193, 162, 0.7);
+        border-radius: 50%;
+        position: relative;
+        right: 30px;
+        top: 50px;
+
+    }
+
+    .circle3 {
+        height: 70px;
+        width: 70px;
+        background-color: rgba(207, 130, 213, 0.6);
+        border-radius: 50%;
+        position: relative;
+        bottom: 80px;
+    }
+    
+}
